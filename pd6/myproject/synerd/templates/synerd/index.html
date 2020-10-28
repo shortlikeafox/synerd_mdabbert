@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<link href="{% static 'synerd/default.css' %}" rel="stylesheet" type="text/css" media="all" />
+
+</head>
+<body>
+<div id="wrapper1">
+	<div id="header-wrapper">
+		<div id="header" class="container">
+			<div id="logo"> <span class="icon icon-cogs"><img src="{% static 'synerd/images/logo.png' %}"></span>
+				 </div>
+			<div id="menu">
+				<ul>
+					<li class="current_page_item"><a href="#" accesskey="1" title="">Galleries</a></li>
+					<li><a href="#" accesskey="2" title="">About Us</a></li>
+					<li><a href="#" accesskey="3" title="">Contact Us</a></li>
+					<li><a href="#" accesskey="4" title="">Sign In</a></li>
+					<li><a href="{% url 'registration' %}" accesskey="5" title="">Join Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="wrapper2">
+		<div id="welcome" class="container">
+			<div class="title">
+				<h2>Welcome to synerD</h2>
+			</div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</div>
+	<div id="wrapper3">
+	</div>
+</div>
+
+<div id="copyright" class="container">
+	<p><a href="">Contact</a> | <a href="">Site Map</a> | <a href="">Terms & Conditions</a> | <a href="">Privacy Policy</a><br />
+	Copyright 2020</p>
+</div>
+</body>
+</html>
